@@ -1,93 +1,106 @@
 .App {
-  text-align: center;
-  background-color: slategray;
-  /* min-height: 100vh; */
-  display: flex;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* font-size: calc(10px + 2vmin); */
-  color: white;
+    text-align: center;
+    background-color: slategray;
+    /* min-height: 100vh; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* font-size: calc(10px + 2vmin); */
+    color: white;
 }
+
 .circle {
-  height: 100px;
-  width: 200px;
-  background-color: blue;
-  border-radius: 100px 100px 0 0;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 100px 100px 0 0;
 }
+
 .circle-top {
-  height: 100px;
-  width: 200px;
-  border-radius: 100px 100px 0 0;
-  border-radius: 500px 500px 0 0;
+    height: 100px;
+    width: 200px;
+    border-radius: 100px 100px 0 0;
+    border-radius: calc(500%) calc(0px+500%) 0 0;
 }
+
 .circle-bottom {
-  height: 100px;
-  width: 200px;
-  border-radius: 0 0 100px 100px;
+    height: 100px;
+    width: 200px;
+    border-radius: 0 0 100px 100px;
 }
+
 .circle-left {
-  height: 200px;
-  width: 100px;
-  border-radius: 100px 0 0 100px;
+    height: 200px;
+    width: 100px;
+    border-radius: 100px 0 0 100px;
 }
+
 .circle-right {
-  height: 200px;
-  width: 100px;
-  border-radius: 0 100px 100px 0;
+    height: 200px;
+    width: 100px;
+    border-radius: 0 100px 100px 0;
 }
+
 .circle,
 .circle-top,
 .circle-bottom,
 .circle-left,
 .circle-right {
-  background-color: blue;
-  margin: 20px;
+    background-color: blue;
+    margin: 20px;
 }
+
+
 /*  */
+
 .circle-top2 {
-  height: 100px;
-  width: 200px;
-  border-radius: 50% 50% 0 0/100% 100% 0 0;
+    height: 100px;
+    width: 200px;
+    border-radius: 50% 50% 0 0/100% 100% 0 0;
 }
+
 .circle-bottom2 {
-  height: 100px;
-  width: 200px;
-  border-radius: 0 0 50% 50%/0 0 100% 100%;
+    height: 100px;
+    width: 200px;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
 }
+
 .circle-left2 {
-  height: 200px;
-  width: 100px;
-  border-radius: 100% 0 0 100%/50% 0 0 50%;
+    height: 200px;
+    width: 100px;
+    border-radius: 100% 0 0 100%/50% 0 0 50%;
 }
+
 .circle-right2 {
-  height: 200px;
-  width: 100px;
-  border-radius: 0 100% 100% 0/0 50% 50% 0;
+    height: 200px;
+    width: 100px;
+    border-radius: 0 100% 100% 0/0 50% 50% 0;
 }
+
 .circle-top2,
 .circle-bottom2,
 .circle-left2,
 .circle-right2,
 .circle2,
 .ellipse {
-  background-color: green;
-  margin-bottom: 20px;
-  margin: 20px;
+    background-color: green;
+    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .circle2 {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: yellow;
-  margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-bottom: 20px;
 }
 
 .ellipse {
-  height: 150px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: red;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
 }
